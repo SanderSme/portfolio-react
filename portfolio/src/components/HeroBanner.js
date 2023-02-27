@@ -6,8 +6,10 @@ import jsLogo from "../assets/js-logo.png"
 import tailwindLogo from "../assets/tailwind-logo.png"
 import figmaLogo from "../assets/figma-logo.png"
 import reactLogo from "../assets/react-logo.png"
+import HeadingCarousel from "./HeadingCarousel"
 
 const HeroBanner = () => {
+  const strings = ["Hello!", "Greetings!", "Hei!"]
   function test(year) {
     var myDate = new Date().getFullYear()
     if(myDate - year === 0) {
@@ -18,16 +20,10 @@ const HeroBanner = () => {
     return myDate - year + " years"
   }
   }
-  // function changeHeading() {
-  //   let headingArray = ["hello", "hei", "eyyyyyy"]
-  //   {headingArray.map(heading => {
-  //     // setInterval(() => console.log(heading), 4000)
-  //   })}
-  // }
   return (
         <div className="HeroBanner">
           <div className="ProfileInfo">
-            <h1 className="Greeting">Hello!</h1>
+            <h1 className="Greeting"><HeadingCarousel strings={strings}/></h1>
             <p className="GreetingText">My name is Sander Smedbøl, and I am a Front end developer stationed in Oslo, Norway</p>
             <div className="ExperienceCardContainer">
             <ExperienceCard image={htmlLogo} altText="html-logo" language="HTML" time={test(2021)}/>

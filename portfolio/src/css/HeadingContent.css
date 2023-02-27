@@ -1,0 +1,8 @@
+.string-display-content {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .string-display-content.active {
+    opacity: 1;
+  }
