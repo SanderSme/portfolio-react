@@ -1,0 +1,75 @@
+.Contact {
+  max-width: 72rem;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.ContactHeading {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  color: #4d4d4d;
+  padding-top: 2rem;
+  margin-top: 0;
+}
+
+.ContactText {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 2rem;
+  color: #4d4d4d;
+}
+
+.ContactInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.MediaHeading {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #4d4d4d;
+}
+
+.SocialMediaIconContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  margin-top: 1rem;
+}
+
+.SocialMediaIcon {
+  background-color: rgb(243 244 246);
+}
+
+.GitHub {
+  color: black;
+}
+
+.FaceBook {
+  color: #4267b2;
+}
+
+.LinkedIn {
+  color: #0072b1;
+}
+
+.EmailBtn {
+  padding: 0.25rem 3rem;
+  background-color: #2c5f2d;
+  color: rgb(243 244 246);
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 1rem;
+  border: none;
+}
+
+.EmailBtn:hover {
+  background-color: #184219;
+  cursor: pointer;
+}
