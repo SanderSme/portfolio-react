@@ -14,3 +14,80 @@
   padding-top: 2rem;
   margin-top: 0;
 }
+
+.cardContainer {
+  width: 40%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #4d4d4d10;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.workImg {
+  width: 100%;
+}
+
+.workHeading {
+  text-align: center;
+}
+
+.linksContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #313131;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 0.75rem;
+}
+
+.Links:hover {
+  background-color: black;
+}
+
+.netlifyLogo {
+  width: 23px;
+}
+
+.MyWorkContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.showMoreBtn {
+  padding: 0.25rem 2.5rem;
+  background-color: #2c5f2d;
+  color: rgb(243 244 246);
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 1rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.showMoreBtn:hover {
+  background-color: #184219;
+  cursor: pointer;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-end;
+}

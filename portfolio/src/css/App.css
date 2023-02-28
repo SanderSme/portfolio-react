@@ -6,14 +6,18 @@
 .hero-banner-container {
   height: fit-content;
   padding: 1.5rem 0;
-  background-color: linear-gradient(#313131, #4d4d4d);
-  background-color: #313131;
+  background: rgb(49, 49, 49);
+  background: linear-gradient(
+    180deg,
+    rgba(49, 49, 49, 1) 0%,
+    rgba(77, 77, 77, 1) 100%
+  );
   display: flex;
   flex-direction: row;
 }
 
 .my-work-container {
-  height: 500px;
+  height: fit-content;
   background-color: rgb(243 244 246);
   margin-top: 0;
 }
