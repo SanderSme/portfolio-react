@@ -10,17 +10,17 @@ const Header = () => {
     <div className="header-container">
         <a href="#">
         <img src={logo} alt="logo" className="logo"/>
-      </a>
+        </a>
         <input type="text" className="searchBar" placeholder="Search for project.."/>
         <div className="navLinks-container">
-          <a href="#" className="navLinks">
-          <FontAwesomeIcon icon={faGithub} size="2x" />
+          <a href="https://github.com/SanderSme" className="navLinks">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
           <a href="#" className="navLinks">
-          <FontAwesomeIcon icon={faFacebook} size="2x" />
+            <FontAwesomeIcon icon={faFacebook} size="2x" />
           </a>
           <a href="#" className="navLinks">
-          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
           <div>
             <button type="button" className="btnLeft"></button>
